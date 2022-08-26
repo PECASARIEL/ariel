@@ -8,9 +8,9 @@
  console.log (matriz2)
 
 
- var producto = (matriz1*matriz2);
+ var producto = (matriz1 * matriz2);
 
  console.log (producto)
  
-var suma = ( matriz1+matriz1 ) ;
+var suma = ( matriz1 + matriz1 ) ;
 console.log (suma)

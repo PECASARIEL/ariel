@@ -1,0 +1,60 @@
+class persona {
+ 
+    var nombre;
+    var apellido;
+    var edad;
+ 
+    persona (String nombre, String apellido, double sueldo, int edad) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+    }
+ 
+      String devuelveNombre() {
+        return nombre + " " + apellido;
+    }
+ 
+    }
+ 
+    String getNombre() {
+        return nombre;
+    }
+ 
+   String setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+ 
+    String getApellido() {
+        return apellido;
+    }
+ 
+    String setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+ 
+    int getEdad() {
+        return edad;
+    }
+ 
+  void setEdad(int edad) {
+        this.edad = edad;
+    }
+    class empleado extends persona {
+
+        var Tipo;
+ 
+        empleado = (String nombre, String apellido, , int edad, String Tipo); {
+        super(nombre, apellido, edad);
+        this.Tipo
+    }
+ 
+     int getTipo() {
+        return Tipo;
+    }
+ 
+     void setTipo(int Tipo) {
+        this.Tipo = Tipo;
+    }
+ 
+   
+}
